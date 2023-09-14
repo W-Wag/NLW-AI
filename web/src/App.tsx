@@ -34,7 +34,7 @@ export function App() {
           <span className="text-sm text-muted-foreground">Desenvolvido com 💜 no NLW da Rocketseat </span>
 
           <Separator orientation="vertical" className="h-6" />
-          <Button variant="outline">
+          <Button onClick={() => window.open('https://github.com/W-Wag/NLW-AI')} variant="outline">
             <Github className="w-4 h-4 mr-2" />
             Github
           </Button>
